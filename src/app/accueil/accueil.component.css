@@ -1,0 +1,27 @@
+/* WRITING */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+.writing{
+	font-family: Montserrat;
+	/*Set the position to relative in order to place the sidebar then.*/
+	position: relative;
+    color: #d92cf9;
+    text-transform: uppercase;
+    font-size: larger;
+    height: 70px;
+}
+/* WRITING END */
+
+.test{
+    position: fixed;
+}
+
+.bg-noir{
+    background-color: #343A40;
+}
+.img{
+    width: 60%;
+}
+.img-2{
+    width: 30%;
+}

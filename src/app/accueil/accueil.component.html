@@ -1,0 +1,248 @@
+<section id="welcome-hero" class="welcome-hero">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="header-text">
+                    <h2>J'aime m'amuser en :<span><h1 class="writing" id="text"></h1></span></h2>
+
+                    <p class="test">ui/ux designer and web developer</p>
+                    <a target="_blank" href="app/projet/projet.component.html" download>Télécharger mon CV</a>
+                    <a target="_blank" href="app/devweb/devweb.component.html">Télécharger mon CV</a>
+                    
+                    <!-- téléchargement du cv + ouverture blank -->
+                    <a href="app/projet/cv.pdf" id="download-link">DL mon CV</a>
+                    <script>
+                        document.getElementById('download-link').addEventListener('click', function(event) {
+                            event.preventDefault(); // Empêche le comportement par défaut du lien
+
+                            // Ouvre le document dans une nouvelle fenêtre
+                            window.open(this.href, '_blank');
+
+                            // Crée un élément de lien temporaire pour le téléchargement
+                            const a = document.createElement('a');
+                            a.href = this.href;
+                            a.download = 'cv.pdf'; // Vous pouvez spécifier le nom du fichier téléchargé ici
+                            document.body.appendChild(a);
+                            a.click();
+                            document.body.removeChild(a); // Supprime l'élément de lien temporaire
+                        });
+                    </script>
+                    <!-- téléchargement du cv + ouverture blank -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- about me -->
+<section id="about" class="about bg-noir">
+    <div class="section-heading text-center">
+        <h2>Camille mais qui est-elle ?</h2>
+    </div>
+    <div class="container">
+        <div class="about-content">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="single-about-txt">
+                        <h3>
+                            Je suis une jeune diplômé en Bachelor Universitaire de Technologie dans les Métiers du Multimédia et de l'Internet.  
+                        </h3>
+                        <p>
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspi unde omnis iste natus error sit voluptatem accusantium doloremque lauda ntium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam vo luptatem quia voluptas sit aspernatur aut odit aut fugit,
+                        </p>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class="single-about-add-info">
+                                    <h3>phone</h3>
+                                    <p>987-123-6547</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="single-about-add-info">
+                                    <h3>email</h3>
+                                    <p>browny&#64;info.com</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="single-about-add-info">
+                                    <h3>website</h3>
+                                    <p>www.brownsine.com</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-offset-1 col-sm-5">
+                    <div class="single-about-img">
+                        <img src="assets/images/about/profile_image.jpg" alt="profile_image">
+                        <div class="about-list-icon">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <i  class="fa fa-facebook" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i  class="fa fa-dribbble" aria-hidden="true"></i>
+                                    </a>
+                                    
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i  class="fa fa-twitter" aria-hidden="true"></i>
+                                    </a>
+                                    
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i  class="fa fa-linkedin" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i  class="fa fa-instagram" aria-hidden="true"></i>
+                                    </a>
+                                </li>                                
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- fin about me -->
+
+<!--profiles start -->
+<section id="profiles" class="profiles">
+    <div class="profiles-details">
+        <div class="section-heading text-center">
+            <h2>Mes compétences</h2>
+        </div>
+        <div class="container">
+            <div class="profiles-content">
+                <h1 class="d-flex justify-content-center bg-dark">ADOBE</h1>
+                <div class="row">
+                    <div class="col-sm-2">
+                        <div class="single-profile">
+                            <div class="profile-txt img">
+                                <img src="img/adobe/lrc.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="single-profile">
+                            <div class="profile-txt img">
+                                <img src="img/adobe/ps.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="single-profile">
+                            <div class="profile-txt img">
+                                <img src="img/adobe/ae.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="single-profile">
+                            <div class="profile-txt img">
+                                <img src="img/adobe/pr.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="single-profile">
+                            <div class="profile-txt img">
+                                <img src="img/adobe/id.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="single-profile">
+                            <div class="profile-txt img">
+                                <img src="img/adobe/ai.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <h1>CODE</h1>
+                <div class="row">
+                    <div class="col-sm-2">
+                        <div class="single-profile">
+                            <div class="profile-txt img">
+                                <img src="img/code/vscode.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="single-profile">
+                            <div class="profile-txt img">
+                                <img src="img/code/boostrap.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="single-profile">
+                            <div class="profile-txt img">
+                                <img src="img/code/html.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="single-profile">
+                            <div class="profile-txt img">
+                                <img src="img/code/css.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="single-profile">
+                            <div class="profile-txt img">
+                                <img src="img/code/js.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="single-profile">
+                            <div class="profile-txt img">
+                                <img src="img/code/php.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <h1>AUTRES</h1>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="single-profile">
+                            <div class="profile-txt img-2">
+                                <img src="img/autre/davinci.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="single-profile">
+                            <div class="profile-txt img">
+                                <img src="img/autre/unity.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="single-profile">
+                            <div class="profile-txt img-2">
+                                <img src="img/autre/canva.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--profiles end -->
