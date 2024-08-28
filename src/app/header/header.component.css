@@ -5,15 +5,9 @@
         justify-content: space-between;
         width: 100%;
     }
-
-    .navbar-header .navbar-brand {
-        margin-right: auto;
-    }
-
     .navbar-collapse {
         flex-grow: 0;
     }
-
     .navbar-collapse ul.navbar-nav {
         margin-left: auto;
     }
@@ -25,11 +19,9 @@
         align-items: center;
         width: 100%;
     }
-
     .navbar-header .navbar-brand {
         order: 1;
     }
-
     .navbar-header .navbar-toggle {
         order: 2;
     }
