@@ -110,7 +110,7 @@ main section {
 }
 
 main section:nth-child(1) {
-  background: url(https://free4kwallpapers.com/uploads/originals/2023/02/26/galaxy-wallpaper.jpg);
+  background-image: url("../../../public/img/potfolio/webdoc.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -186,7 +186,7 @@ main section .content .info .desc {
   font-size: 16px;
   font-weight: 200;
   text-transform: capitalize;
-  margin-top: 10px;
+  /* margin-top: 10px; */
 }
 
 main section .content .info .tips {
@@ -214,13 +214,13 @@ main section .content .info .tips .stars i {
 main section .content .info .tips .year {
   padding: 3px 15px;
   border-radius: 20px;
-  background-color: #b61dfd6f;
-  color: #db8dff;
+  background-color: #fd1d1d6f;
+  color: #ff8d8d;
 }
 
 main section .content .info .buttons {
   display: flex;
-  margin-top: 25px;
+  /* margin-top: 25px; */
   align-items: center;
   gap: 20px;
   width: max-content;
@@ -278,7 +278,7 @@ main section .content .info .buttons {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #b61dfd6f;
+  background-color: #fd1d1d6f;
   backdrop-filter: blur(1px);
   border-radius: 50%;
   cursor: pointer;
@@ -368,4 +368,11 @@ main section .content .info .buttons {
 
 .pad-top{
     padding-top: 40px;
+}
+
+.bg-noir{
+  background-color: #000000;
+}
+.txt-fff{
+  color: #fff !important;
 }
