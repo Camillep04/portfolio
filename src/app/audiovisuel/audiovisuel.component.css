@@ -110,21 +110,49 @@ main section {
 }
 
 main section:nth-child(1) {
-  background-image: url("../../../public/img/potfolio/webdoc.jpg");
+  background-image: url("../../../public/img/portfolio/a&h.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: 100%;
 }
 
 main section:nth-child(2) {
-  background: url(https://images8.alphacoders.com/132/thumb-1920-1320554.png);
+  background: url("../../../public/img/portfolio/plateau.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: 100%;
 }
 
 main section:nth-child(3) {
-  background: url(https://cdn.videogamesblogger.com/wp-content/uploads/2023/04/the-super-mario-bros-movie-poster-4k-wallpaper-scaled.jpg);
+  background: url("../../../public/img/portfolio/mmi.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+main section:nth-child(4) {
+  background: url("../../../public/img/portfolio/inlive.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+main section:nth-child(5) {
+  background: url("../../../public/img/portfolio/graphique.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+main section:nth-child(6) {
+  background: url("../../../public/img/portfolio/sln.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+main section:nth-child(7) {
+  background: url("../../../public/img/portfolio/badass.png");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -185,7 +213,7 @@ main section .content .info .desc {
   max-width: 600px;
   font-size: 16px;
   font-weight: 200;
-  text-transform: capitalize;
+  text-transform: none;
   /* margin-top: 10px; */
 }
 
